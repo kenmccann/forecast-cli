@@ -1,9 +1,9 @@
 # forecast-cli
 Command line tool for adding projects for Forecast via the API.
 
-# Usage
+## Usage
 
-## Available Arguments
+### Available Arguments
 ```
 $ python3 forecast-cli.py --help
 usage: forecast-cli.py [-h] -a ACCOUNT -p PERSON -s SEGMENT [-r {EMEA,US,APAC}] -k KEY
@@ -23,7 +23,7 @@ optional arguments:
   -k KEY, --key KEY     Your API key
 ```
 
-## Example
+### Example
 ```
 $ python forecast-cli.py -a "ACME Corp" -p "some.user@aquasec.com" -s "Enterprise" -r "EMEA" -k <forecast_api_key>
 ```
